@@ -1,0 +1,35 @@
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.first-div{
+   
+}
+.second-div{
+ display: flex; 
+ justify-content: space-between;
+
+}
+.second-div p{
+    width: 50%;
+    font-size: 24px;
+}
+
+.third-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (min-width: 830px) and (max-width: 1400px) {
+    .container{
+        width: 80%;
+        background-color: yellow;
+    }
+}
+@media mob (min-width: 375px) and (max-width: 1400px) {
+    .container{
+        width: 80%;
+        background-color: red;
+    }
+    
